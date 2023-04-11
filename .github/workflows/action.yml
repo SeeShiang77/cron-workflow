@@ -3,7 +3,7 @@ name: Action Workflow
 on:
   schedule:
      - cron: '1 * * * *'
-     
+
   pull_request:
      types: [closed, assigned, opened, reopened]
 
